@@ -60,6 +60,8 @@ mark {
 	color: inherit;
 }
 
+.hidden { display: none; }
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -99,8 +101,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-color: #ff7043;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/blur-codes-bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
